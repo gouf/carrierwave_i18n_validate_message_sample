@@ -1,7 +1,6 @@
 class ImageNameUniquenessValidator < ActiveModel::Validator
   def validate(record)
-    error_message = 'Image name is not uniqueness'
-    record.errors[:base] << error_message if uniqueness?(record)
+    record.errors.add(:image, :uniqueness) if uniqueness?(record)
   end
 
   private

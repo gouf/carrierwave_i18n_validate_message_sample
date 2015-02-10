@@ -1,4 +1,16 @@
 ja:
+  activerecord:
+    models:
+      user: 'ユーザー'
+    attributes:
+      user:
+        image: '画像'
+    errors:
+      models:
+        user:
+          attributes:
+            image:
+              uniqueness: 'の名前が一意ではありません'
   date:
     abbr_day_names:
     - 日
