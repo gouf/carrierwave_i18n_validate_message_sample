@@ -1,0 +1,10 @@
+{
+  "name": "Carrierwave i18n sample",
+  "description": "Validate file name uniqueness",
+  "keywords": [
+    "rails",
+    "sample"
+  ],
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "env": {}
+}
